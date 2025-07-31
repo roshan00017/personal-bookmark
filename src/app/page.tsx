@@ -4,6 +4,6 @@ import LandingHero from "./components/LandingHero";
 
 
 export default async function HomePage() {
-  const user = getCurrentUser(); // server-side
+  const user = getCurrentUser(); 
   return <LandingHero isLoggedIn={!!user} />;
 }
