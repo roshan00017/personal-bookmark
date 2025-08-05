@@ -29,6 +29,7 @@ const features = [
 
 export default function LandingHero({ isLoggedIn }: { isLoggedIn: boolean }) {
   return (
+    
     <div className="relative flex flex-col items-center justify-center min-h-[80vh] px-6 py-16 overflow-hidden">
       {/* Animated gradient blobs */}
       <motion.div
